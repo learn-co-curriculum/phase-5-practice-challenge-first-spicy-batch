@@ -1,4 +1,4 @@
-describe '#first_bad_batch' do
-  it 'returns the first bad batch' do
+describe '#first_spicy_batch' do
+  it 'returns the first spicy batch' do
   end
 end
