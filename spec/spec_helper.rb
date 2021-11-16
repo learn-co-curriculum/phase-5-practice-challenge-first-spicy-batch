@@ -1,4 +1,4 @@
-require_relative '../lib/first_bad_batch'
+require_relative '../lib/first_spicy_batch'
 
 RSpec.configure do |config|
   config.order = :default
