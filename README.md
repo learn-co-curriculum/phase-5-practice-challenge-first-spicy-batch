@@ -21,28 +21,28 @@ Suppose you have `n` batches of beans [1, 2, 3, ..., n] and you want to find out
 which was the first spicy one, so that you can put a warning label on all the
 subsequent batches.
 
-You are given an API that returns a boolean, `is_spicy_batch(batch)` which
-returns whether a batch is spicy. Implement a method, `#first_spicy_batch`, to find
-the first spicy batch. You should minimize the number of calls to the API.
+You are given a method that returns a boolean, `#is_spicy_batch(batch)` which
+returns whether a batch is spicy. Implement a method, `#first_spicy_batch`, to
+find the first spicy batch. You should minimize the number of calls to the given method.
 
 Examples:
 
 ```rb
-# Input: n = 11, bad = 3
+# Input: n = 11, spicy = 3
 # Output: 4
 is_spicy_batch(6) # => true
 is_spicy_batch(3) # => true
 is_spicy_batch(2) # => false
 
-# 3 is the first bad version.
+# Batch 3 is the first spicy batch.
 ```
 
 ```rb
-# Input: n = 1, bad = 1
+# Input: n = 1, spicy = 1
 # Output: 1
 is_spicy_batch(1) # => true
 
-# 1 is the first bad version.
+# Batch 1 is the first spicy batch.
 ```
 
 Remember the process:
