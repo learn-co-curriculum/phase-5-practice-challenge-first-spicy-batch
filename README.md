@@ -23,7 +23,7 @@ subsequent batches.
 
 You are given a method that returns a boolean, `#is_spicy_batch(batch)` which
 returns whether a batch is spicy. Implement a method, `#first_spicy_batch`, to
-find the first spicy batch. You should minimize the number of calls to the API.
+find the first spicy batch. You should minimize the number of calls to the given method.
 
 Examples:
 
