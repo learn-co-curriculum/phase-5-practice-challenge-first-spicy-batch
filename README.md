@@ -1,13 +1,9 @@
-# Phase 5 DS&A Assessment: First Spicy Batch
+# Practice Challenge: First Spicy Batch
 
-In this assessment, you will get an opportunity to practice using the Data
+In this practice challenge, you will get an opportunity to use the Data
 Structures and Algorithms skills you have built over the course of the program.
-
-The purpose of this assessment is to give you more exposure to DS&A problems and
-to get feedback on your solution from your instructor. This assessment has a
-rubric that will allow for your instructor to evaluate your submission and
-provide feedback, but the grade will have no impact on your successful
-completion of the program.
+It will also help you prepare for the types of challenges you can expect to see
+in job interviews.
 
 ## Instructions
 
@@ -23,7 +19,8 @@ subsequent batches.
 
 You are given a method that returns a boolean, `#is_spicy_batch(batch)` which
 returns whether a batch is spicy. Implement a method, `#first_spicy_batch`, to
-find the first spicy batch. You should minimize the number of calls to the given method.
+find the first spicy batch. You should minimize the number of calls to the given
+method.
 
 Examples:
 
@@ -56,3 +53,11 @@ Remember the process:
 
 Once you have a complete solution, run the test suite using `learn test` as a
 final check.
+
+## Check Out the Solution
+
+Several possible approaches for completing this challenge are provided in a
+separate lesson. Once your code is working and you have all the tests passing,
+be sure to take a look at the example solutions provided. This will give you
+exposure to different approaches for solving this challenge, and may also give
+you ideas for how you might want to refactor your code to make it better.
