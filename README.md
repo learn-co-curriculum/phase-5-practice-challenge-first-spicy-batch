@@ -21,9 +21,12 @@ Suppose you have `n` batches of beans [1, 2, 3, ..., n] and you want to find out
 which was the first spicy one, so that you can put a warning label on all the
 subsequent batches.
 
+![beans](https://curriculum-content.s3.amazonaws.com/phase-5/dsa-assessment-first-spicy-batch/phase-5-dsa-beans-1.png)
+
 You are given a method that returns a boolean, `#is_spicy_batch(batch)` which
 returns whether a batch is spicy. Implement a method, `#first_spicy_batch`, to
 find the first spicy batch. You should minimize the number of calls to the given method.
+
 
 Examples:
 
